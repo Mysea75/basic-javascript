@@ -1,0 +1,15 @@
+{
+  "name": "basic-javascript",
+  "version": "1.0.0",
+  "description": "A Learning purpose for the historical evolution of javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/Mysea75/basic-javascript.git",
+  "author": "Ghulam Moinuddin <sea.moin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
