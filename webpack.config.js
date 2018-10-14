@@ -8,5 +8,19 @@ module.exports = {
     devServer:{
         open: true,
         port: '8080'
+    },
+    module:{
+        rules:[
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use:{
+                    loader: 'babel-loader',
+                    options:{
+                        presets:['@babel/preset-env']
+                    }
+                }
+            }
+        ]
     }
 }
