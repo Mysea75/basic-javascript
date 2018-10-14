@@ -4,12 +4,19 @@
   "description": "A Learning purpose for the historical evolution of javascript",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "start": "webpack-dev-server"
   },
   "repository": "https://github.com/Mysea75/basic-javascript.git",
   "author": "Ghulam Moinuddin <sea.moin@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
